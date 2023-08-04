@@ -9,6 +9,9 @@ body{
     font-family: Montserrat,
     sans-serif;
 }
+hr {
+    margin: 2rem 0rem;
+}
 /* container */
 
 .flued-container{
@@ -41,4 +44,17 @@ body{
     border-radius: 0.5rem;
     border: 2px solid var(--primery-color);
     
+}
+
+/* BEM naming conventions for css */
+
+/* listes  */
+.list-non-bullet {
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.3rem;
+
+
 }
