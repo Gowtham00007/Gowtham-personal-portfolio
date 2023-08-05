@@ -67,10 +67,13 @@ hr {
 
 
 .navigation {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: -0.5rem;
     background-color: var(--primery-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    max-width:75%;
+max-width: 100%;
 }
 .nav-brand{
     font-weight: bold;
@@ -80,6 +83,7 @@ hr {
 .navigation .link {
     color: black;
 }
+
 .navigation  .nav-pills{
     text-align: right;
 }
@@ -108,8 +112,10 @@ hr {
 
 /* section  */
 .section{
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding: 2rem;
-    text-align: center;
+     text-align: center; 
 }
 
 .section h1 ,p {
@@ -117,13 +123,18 @@ hr {
     
 }
 .section-two {
+    border-radius: 1rem;
     background-color: var(--gray-color);
 }
 
 /* footer  */
 .footer{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: -0.5rem;
     background-color: var(--primery-color);
-    padding: 2rem ;
+    padding: 2rem;
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
@@ -135,6 +146,7 @@ hr {
  }
 
 .footer .social-links{
+
     padding-inline-start: 0px;
 }
 
