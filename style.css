@@ -97,6 +97,7 @@ hr {
     display: block;
 }
 .hero .hero-heading{
+    text-align:center ;
     padding-top: 1rem;
     color: var(--secondary-color);
 }
