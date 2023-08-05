@@ -29,21 +29,25 @@ hr {
 
 /* links */
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 .primery-link{
+    margin: 1rem auto;
+    max-width: 140px;
     border-radius: 0.5rem;
    color:black;
    background-color: var(--primery-color);
-   padding: 0.5rem 1rem;
-}
+   padding: 0.6rem 1.2rem;
+   border-radius: 2rem; 
+} 
 .secondary-color{
    
     
     
     color: black;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 2px solid var(--primery-color);
     
 }
@@ -66,7 +70,7 @@ hr {
     background-color: var(--primery-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    max-width:100%;
+    max-width:75%;
 }
 .nav-brand{
     font-weight: bold;
@@ -105,9 +109,10 @@ hr {
 /* section  */
 .section{
     padding: 2rem;
+    text-align: center;
 }
 
-.section h1 {
+.section h1 ,p {
     text-align: center;
     
 }
