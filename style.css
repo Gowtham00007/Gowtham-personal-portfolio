@@ -3,6 +3,8 @@
 
 :root{
    --primery-color:#a3e635;
+   --secondary-color:#6b7280;
+   --gray-color:#e5e7eb;
 }
 
 body{
@@ -39,7 +41,7 @@ hr {
 .secondary-color{
    
     
-    color:#a3e635;
+    
     color: black;
     border-radius: 0.5rem;
     border: 2px solid var(--primery-color);
@@ -55,6 +57,78 @@ hr {
 .list-item-inline{
     display: inline;
     padding: 0rem 0.3rem;
-
-
 }
+
+/* navigation  */
+
+
+.navigation {
+    background-color: var(--primery-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    max-width:100%;
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link {
+    color: black;
+}
+.navigation  .nav-pills{
+    text-align: right;
+}
+
+.nav-brand {
+    color: black;
+}
+
+.navigation .linkactive {
+    font-weight: bold;
+}
+/* hedder  */
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--secondary-color);
+}
+
+/* section  */
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    
+}
+.section-two {
+    background-color: var(--gray-color);
+}
+
+/* footer  */
+.footer{
+    background-color: var(--primery-color);
+    padding: 2rem ;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+}
+.footer .link {
+    color: black;
+   
+
+ }
+
+.footer .social-links{
+    padding-inline-start: 0px;
+}
+
