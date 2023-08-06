@@ -77,10 +77,11 @@ hr {
 
 
 .navigation {
+
     background-color: var(--primery-color);
-    padding: 1rem ;
+    padding: 2rem ;
     border-bottom-left-radius: 1rem;
-    max-width: 100%;
+    
 
 }
 
