@@ -125,24 +125,25 @@ hr {
 
 /* footer  */
 .footer{
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    margin-right: 2rem;
     margin-bottom: -0.5rem;
     background-color: var(--primery-color);
-    padding: 2rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
 }
 .footer .link {
     color: black;
-   
-
  }
-
-.footer .social-links{
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+/* .footer .social-links{
 
     padding-inline-start: 0px;
 }
-
+ */
