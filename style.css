@@ -67,8 +67,8 @@ hr {
 
 
 .navigation {
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     margin-top: -0.5rem;
     background-color: var(--primery-color);
     padding: 1rem;
@@ -129,8 +129,8 @@ max-width: 100%;
 
 /* footer  */
 .footer{
-    margin-top: 3.5rem;
-    margin-left: 3.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
     margin-right: 2rem;
     margin-bottom: -0.5rem;
     background-color: var(--primery-color);
