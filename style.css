@@ -8,21 +8,30 @@
 }
 
 body{
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
     font-family: Montserrat,
     sans-serif;
 }
+
 hr {
     margin: 2rem 0rem;
+}
+/* spaces  */
+
+.margin-md{
+    margin: 2rem;
 }
 /* container */
 
 .flued-container{
-    padding-left:  1rem; ;
-    padding-right: 1rem ;
+    padding: 0rem 1rem;
 }
 
 .container{
-    max-width :600px;
+    max-width :900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -43,9 +52,9 @@ hr {
    border-radius: 2rem; 
 } 
 .secondary-color{
-   
-    
-    
+   max-width: 140px;
+   margin: 1rem;
+   padding:0.6rem 1.2rem; 
     color: black;
     border-radius: 2rem;
     border: 2px solid var(--primery-color);
@@ -57,6 +66,7 @@ hr {
 /* listes  */
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
 }
 .list-item-inline{
     display: inline;
@@ -67,35 +77,38 @@ hr {
 
 
 .navigation {
-    margin-top: -0.5rem;
     background-color: var(--primery-color);
-    padding: 1rem;
+    padding: 1rem ;
     border-bottom-left-radius: 1rem;
+    max-width: 100%;
+
 }
+
 .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
     color: black;
-}
 
+
+}
 
 .navigation .link {
     color: black;
 }
-
 .navigation  .nav-pills{
     text-align: right;
     margin: 0.6rem 1rem;
 }
-
 .navigation .linkactive {
     font-weight: bold;
 }
 /* hedder  */
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-img {
+    max-width: 80%;
     max-width: 350px;
     margin: auto;
     display: block;
@@ -108,9 +121,9 @@ hr {
 
 /* section  */
 .section{
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 2rem 0;
     padding: 2rem;
+    border-radius: 1rem;
      text-align: center; 
 }
 
@@ -125,7 +138,6 @@ hr {
 
 /* footer  */
 .footer{
-    margin-bottom: -0.5rem;
     background-color: var(--primery-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -142,8 +154,3 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
-/* .footer .social-links{
-
-    padding-inline-start: 0px;
-}
- */
