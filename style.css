@@ -67,18 +67,17 @@ hr {
 
 
 .navigation {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
     margin-top: -0.5rem;
     background-color: var(--primery-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-max-width: 100%;
 }
 .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
+    color: black;
 }
+
 
 .navigation .link {
     color: black;
@@ -86,10 +85,7 @@ max-width: 100%;
 
 .navigation  .nav-pills{
     text-align: right;
-}
-
-.nav-brand {
-    color: black;
+    margin: 0.6rem 1rem;
 }
 
 .navigation .linkactive {
