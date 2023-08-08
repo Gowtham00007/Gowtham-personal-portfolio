@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chonburi&display=swap');
 
 :root{
    --primery-color:#a3e635;
@@ -11,8 +12,11 @@ body{
     margin: 0px auto;
     max-width: 85%;
     width: 100%;
-    font-family: Montserrat,
-    sans-serif;
+    /* font-family: Montserrat,
+    sans-serif; */
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Chonburi', cursive;
+
 }
 
 hr {
