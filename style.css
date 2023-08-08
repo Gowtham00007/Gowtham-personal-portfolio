@@ -77,11 +77,9 @@ hr {
 
 
 .navigation {
-
     background-color: var(--primery-color);
-    padding: 2rem ;
+    padding: 1rem ;
     border-bottom-left-radius: 1rem;
-    
 
 }
 
@@ -155,3 +153,55 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
+
+/** projects **/
+.showcase-list {
+background-color: var(--gray-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+  }
+
+  .showcase-list2 {
+    background-color:white;
+        padding: 2rem;
+        border-radius: 1rem;
+        text-align: center;
+        margin: 3rem auto;
+      }
+
+
+  .showcase-list h1 {
+    margin: 0.5rem;
+  }
+  
+  .showcase-list p {
+    padding-bottom: 1rem;
+  }
+
+/* bloges  */
+
+.showcase-blog {
+    padding-bottom: 6rem;
+  }
+  
+  @media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+  
+    .list-item-inline {
+      display: inline;
+      padding: 0rem;
+    }
+  
+    .flued-container {
+      width: auto;
+    }
+  
+    .primery-link{
+      display: block;
+    }
+  }
