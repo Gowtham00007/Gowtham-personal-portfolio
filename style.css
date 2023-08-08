@@ -205,3 +205,9 @@ background-color: var(--gray-color);
       display: block;
     }
   }
+
+.spacol .h1 span ,.h2 ,span {
+    color: darkgreen;
+    
+    
+}
