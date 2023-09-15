@@ -9,6 +9,8 @@
 }
 
 body{
+    font-size: large;
+    letter-spacing: 0.1rem;
     margin: 0px auto;
     max-width: 85%;
     width: 100%;
